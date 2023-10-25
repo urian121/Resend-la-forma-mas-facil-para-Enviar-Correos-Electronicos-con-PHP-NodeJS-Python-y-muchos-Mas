@@ -30,7 +30,7 @@ def formulario_contacto():
             "from": "Python  & Fask <pythonflaskg@resend.dev>",
             "to": ["urian1213viera@gmail.com"],
             "subject": "Python & Flask",
-            "html": f"""Recibeindo email desde Python y Flask 😲
+            "html": f"""Recibiendo email desde Python y Flask 😲
                     Datos del formulario:
                     <p>Cliente: {nombre_cliente}</p>
                     <p>Email: {email_cliente}</p>
