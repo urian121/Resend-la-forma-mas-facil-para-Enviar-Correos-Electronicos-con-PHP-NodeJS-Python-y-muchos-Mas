@@ -1,9 +1,15 @@
-#### INICIAL PROYECTO EN CON NODE
+## Eviar email con Resend desde NodeJS
+
+#### Inicia un projecto con Node
 
         npm init -y
 
-#### INSTALAR RESEND PARA EL ENVIO DE EMAIL
+#### Instalar Resend para el envio de email
 
         npm install resend
 
-#### CONFIGURAR EL ENVIO DE EMAIL
+#### Configurar envio
+
+#### Correr proyecto existente
+
+        npm install
