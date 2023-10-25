@@ -15,7 +15,7 @@ if (($_SERVER["REQUEST_METHOD"] == "POST")) {
             'to' => ['urian1213viera@gmail.com'],
             'subject' => 'Hola comunidad WebDeveloper ',
             'html' => '<p>El cliente  <strong>' . $nombre_cliente . '</strong> con email ' . $email_cliente . ' le envia este mensaje </p>
-            <strong>' . $mensaje_cliente . '</strong>',
+            <strong>' . $mensaje_cliente . '</strong> 🙀',
         ]);
     } catch (\Exception $e) {
         exit('Error: ' . $e->getMessage());

@@ -7,7 +7,7 @@ const sendEmail = async () => {
       from: "NodeJS <node@resend.dev>",
       to: ["urian1213viera@gmail.com"],
       subject: "Email desde NodeJS",
-      html: "<p>Hola Comunidad, enviando email desde NodeJS con Resend",
+      html: "<p>Hola Comunidad, enviando email desde NodeJS con Resend 🤯",
     });
 
     console.log(data);
