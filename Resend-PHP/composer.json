@@ -1,5 +1,10 @@
 {
-    "require": {
-        "resend/resend-php": "^0.9.0"
-    }
+  "name": "resend/php",
+  "description": "Enviar Email desde Resend con PHP",
+  "type": "project",
+  "require": {
+    "resend/resend-php": "^0.9.0"
+  },
+  "license": "MIT",
+  "minimum-stability": "stable"
 }
