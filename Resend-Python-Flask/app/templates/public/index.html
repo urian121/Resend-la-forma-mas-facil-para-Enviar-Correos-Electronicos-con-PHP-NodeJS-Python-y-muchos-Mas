@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enviar correo con Resend Python & Flask</title>
+    <link
+      rel="shortcut icon"
+      href="{{ url_for('static', filename ='assets/imgs/favicon.png') }}"
+      type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename ='assets/css/home.css') }}" />
+  </head>
+
+  <body>
+    <div class="modal">
+      <div class="modal__container">
+        <div class="modal__featured">
+          <img
+            src="{{ url_for('static', filename ='assets/imgs/background.webp') }}"
+            class="modal__product" />
+        </div>
+        <div class="modal__content">
+          <h2>Información de contacto</h2>
+
+          <form
+            action="{{ url_for('formulario_contacto') }}"
+            method="POST"
+            autocomplete="off">
+            <ul class="form-list">
+              <li class="form-list__row">
+                <label>Nombre y Apellido</label>
+                <input type="text" name="nombre_cliente" required />
+              </li>
+              <li class="form-list__row">
+                <label>Email</label>
+                <div id="input--cc" class="creditcard-icon">
+                  <input type="text" name="email_cliente" required="" />
+                </div>
+              </li>
+              <li class="form-list__row">
+                <label>Mensaje</label>
+                <textarea name="mensaje_cliente" cols="10" rows="5"></textarea>
+              </li>
+              <li>
+                <button type="submit" class="button">Crear Registro</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
