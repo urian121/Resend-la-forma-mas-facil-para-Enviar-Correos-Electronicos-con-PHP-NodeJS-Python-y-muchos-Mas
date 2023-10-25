@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enviar correo con Resend y PHP</title>
+    <link
+      rel="shortcut icon"
+      href="assets/imgs/favicon.png"
+      type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+
+  <body>
+    <div class="modal">
+      <div class="modal__container">
+        <div class="modal__featured">
+          <img src="assets/imgs/background.webp" class="modal__product" />
+        </div>
+        <div class="modal__content">
+          <h2>Información de contacto</h2>
+
+          <form action="email.php" method="POST" autocomplete="off">
+            <ul class="form-list">
+              <li class="form-list__row">
+                <label>Nombre y Apellido</label>
+                <input type="text" name="nombre_cliente" required />
+              </li>
+              <li class="form-list__row">
+                <label>Email</label>
+                <div id="input--cc" class="creditcard-icon">
+                  <input type="text" name="email_cliente" required="" />
+                </div>
+              </li>
+              <li class="form-list__row">
+                <label>Mensaje</label>
+                <textarea name="mensaje_cliente" cols="10" rows="5"></textarea>
+              </li>
+              <li class="form-list__row form-list__row--agree">
+                <label>
+                  <input
+                    type="checkbox"
+                    name="terminos"
+                    value="1"
+                    checked="checked" />
+                  Acepta los términos y condiciones
+                </label>
+              </li>
+              <li>
+                <button type="submit" class="button">Crear Registro</button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
