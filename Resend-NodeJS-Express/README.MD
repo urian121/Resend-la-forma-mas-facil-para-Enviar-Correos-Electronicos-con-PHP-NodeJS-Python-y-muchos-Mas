@@ -12,6 +12,10 @@
 
     npm install resend
 
-#### Correr proyecto
+#### Pasos para correr proyecto existente
+
+    npm install
 
     node --watch index.js
+
+![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/enviar-email-desde-Resend-con-Node-y-Express-urian-viera.png)
