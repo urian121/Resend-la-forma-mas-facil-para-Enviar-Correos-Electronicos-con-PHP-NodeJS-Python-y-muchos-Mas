@@ -19,3 +19,12 @@
     node --watch index.js
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/enviar-email-desde-Resend-con-Node-y-Express-urian-viera.png)
+
+### Expresiones de Gratitud 🎁
+
+    Comenta a otros sobre este proyecto 📢
+    Invita una cerveza 🍺 o un café ☕
+    Paypal iamdeveloper86@gmail.com
+    Da las gracias públicamente 🤓.
+
+## No olvides SUSCRIBIRTE 👍

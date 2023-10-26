@@ -10,7 +10,6 @@
         . env/bin/activate -> Para Mac
         deactivate -->Para desactivar mi entorno virtual
 
-
 #### Instalar famework flask
 
     pip install flask
@@ -32,6 +31,13 @@
     python app.py ->desde Windows
     python3 app.py ->Desde Mac
 
-#
-
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/enviar-email-desde-Resend-con-Node-y-Express-urian-viera.png)
+
+### Expresiones de Gratitud 🎁
+
+    Comenta a otros sobre este proyecto 📢
+    Invita una cerveza 🍺 o un café ☕
+    Paypal iamdeveloper86@gmail.com
+    Da las gracias públicamente 🤓.
+
+## No olvides SUSCRIBIRTE 👍
