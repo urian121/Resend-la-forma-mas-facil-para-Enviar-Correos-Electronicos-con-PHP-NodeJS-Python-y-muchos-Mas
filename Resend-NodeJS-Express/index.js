@@ -53,8 +53,8 @@ app.post("/enviando-email-con-resend-node-express", async (req, res) => {
       html: `<p>Hola gente, recibiendo email desde Node con Express 😲 🙀 🤯  
         datos del Cliente:</p>
         <p>Cliente: ${nombre_cliente}</p> 
-        <p>Cliente: ${email_cliente}</p> 
-        <p>Cliente: ${mensaje_cliente}</p> `,
+        <p>Email: ${email_cliente}</p> 
+        <p>Mensaje: ${mensaje_cliente}</p> `,
     });
 
     console.log("Respuesta enviada:", data);
