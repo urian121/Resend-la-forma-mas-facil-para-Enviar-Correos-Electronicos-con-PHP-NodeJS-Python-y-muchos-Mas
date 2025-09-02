@@ -5,7 +5,7 @@ from django.contrib import messages  # Para usar mensajes flash
 # Importante importando Resend
 import resend
 
-resend.api_key = "re_gQYDfsg9_DY6dVbrbi1yM6nTHSyuSKNkc"
+resend.api_key = ""
 
 
 def inicio(request):
