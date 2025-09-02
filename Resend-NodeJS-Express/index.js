@@ -8,7 +8,8 @@ import { Resend } from "resend";
 
 // Creando una nueva aplicación Express.
 const app = express();
-const resend = new Resend("re_gQYDfsg9_DY6dVbrbi1yM6nTHSyuSKNkc");
+//const resend = new Resend("Aqui va la key");
+const resend = new Resend("");
 
 app.use(cors());
 
