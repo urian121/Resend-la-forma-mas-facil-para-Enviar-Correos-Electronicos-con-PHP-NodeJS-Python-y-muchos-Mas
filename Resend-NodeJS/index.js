@@ -1,5 +1,6 @@
 import { Resend } from "resend";
-const resend = new Resend("re_gQYDfsg9_DY6dVbrbi1yM6nTHSyuSKNkc");
+//const resend = new Resend("Aqui va la key");
+const resend = new Resend("");
 
 const sendEmail = async () => {
   try {
