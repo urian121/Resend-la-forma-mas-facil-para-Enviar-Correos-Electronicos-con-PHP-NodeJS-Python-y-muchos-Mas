@@ -4,7 +4,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import resend
 
 
-resend.api_key = "re_gQYDfsg9_DY6dVbrbi1yM6nTHSyuSKNkc"
+resend.api_key = ""
 
 # Declarando nombre de la aplicación e inicializando, crear la aplicación Flask
 app = Flask(__name__)
