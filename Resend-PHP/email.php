@@ -5,7 +5,8 @@ if (($_SERVER["REQUEST_METHOD"] == "POST")) {
 
     require __DIR__ . '/vendor/autoload.php';
 
-    $resend = Resend::client('re_gQYDfsg9_DY6dVbrbi1yM6nTHSyuSKNkc');
+    // $resend = Resend::client('aqui va la key');
+    $resend = Resend::client('');
 
     $nombre_cliente       = $_POST['nombre_cliente'];
     $email_cliente        = $_POST['email_cliente'];
